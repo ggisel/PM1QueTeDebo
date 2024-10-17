@@ -10,4 +10,9 @@ public class MercadoPagoImpl implements PaymentMethod {
 		return "Mercado Pago";
 	}
 
+	@Override
+	public String getName() {
+		return "Mercado Pago";
+	}
+
 }

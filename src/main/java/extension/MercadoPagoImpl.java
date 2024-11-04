@@ -1,8 +1,8 @@
 package extension;
 
-import ar.com.quetedebo.pm.PaymentMethod;
+import ar.com.quetedebo.pm.PaymentMethodPlugin;
 
-public class MercadoPagoImpl implements PaymentMethod {
+public class MercadoPagoImpl implements PaymentMethodPlugin {
 
 	@Override
 	public String processPayment(String address, Float ammount) {
